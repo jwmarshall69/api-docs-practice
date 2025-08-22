@@ -1,0 +1,8 @@
+### VS Code REST Client samples
+
+@baseUrl = https://api.example.com/v1
+@token = YOUR_TOKEN
+
+### List items
+GET {{baseUrl}}/items?limit=5
+Authorization: Bearer {{token}}
