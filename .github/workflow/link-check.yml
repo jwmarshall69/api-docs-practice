@@ -1,1 +1,15 @@
-
+name: Link Check
+on:
+  pull_request:
+    paths: ['**/*.md']
+  workflow_dispatch:
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v1.11.1
+        with:
+          args: --verbose --no-progress --exclude-mail --max-concurrency 2 **/*.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
