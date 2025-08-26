@@ -1,5 +1,9 @@
 # Getting Started Guide
 
+## Jimmie Marshall
+
+### Aug 26, 2025
+
 This is your first guide written in **Markdown**.  
 Use this file to practice:
 
