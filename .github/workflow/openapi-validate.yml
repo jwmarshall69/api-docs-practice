@@ -1,0 +1,22 @@
+# .github/workflows/openapi-validate.yml
+name: OpenAPI Validate
+
+on:
+  pull_request:
+    paths:
+      - 'openapi/**/*.yml'
+      - 'openapi/**/*.yaml'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Swagger Editor validator (syntax + structural checks)
+      - name: Validate with swagger-editor
+        uses: char0n/swagger-editor-validate@v1
+        with:
+          definition-file: openapi/openapi.yaml
