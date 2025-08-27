@@ -1,14 +1,17 @@
 # API Reference
 
 ## List Items
+
 **GET** `/v1/items`
 
 ### Query Parameters
+
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
 | limit | integer | No | Number of items to return |
 
 ### Response
+
 ```json
 {
   "data": [
@@ -16,5 +19,5 @@
   ]
 }
 ```
----
 
+---

@@ -4,6 +4,7 @@
 > **Goal:** Make a first successful request in <10 minutes
 
 ## Prerequisites
+
 - A valid API key or token (see **Authentication**)
 - A tool to send HTTP requests:
   - Postman (recommended)
@@ -11,21 +12,25 @@
   - `curl`
 
 ## Base URL
-```
+
+```bash
 https://api.example.com/v1
 ```
 
 ## Authentication
+
 Use a Bearer token in the `Authorization` header:
 
-```
+```bash
 Authorization: Bearer YOUR_TOKEN
 ```
 
 ## Your First Call: List Items
+
 **GET** `/items?limit=5`
 
 ### Example Response
+
 ```json
 {
   "data": [

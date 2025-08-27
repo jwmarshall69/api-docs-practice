@@ -3,6 +3,7 @@
 This site is built with **GitHub Pages** and Markdown.  
 
 ## 📚 Sections
+
 - [Guides](guides/getting-started.md)
 - [Quick Start Guide](guides/quick-start.md)
 - [API Glossary](api/glossary.md)

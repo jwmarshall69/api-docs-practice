@@ -9,5 +9,5 @@
 **Response** - The data returned by the API, ussually in JSON format
 
 ---
-- [x] Add new terms here as you learn them
 
+- [x] Add new terms here as you learn them
