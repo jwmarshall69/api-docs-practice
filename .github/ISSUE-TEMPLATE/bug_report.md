@@ -4,12 +4,12 @@ about: Report a problem in the docs or examples
 labels: bug
 ---
 
-**What happened?**
+# What happened?
 
 **Where?** (file + section)
 
-**Expected vs Actual**
+## Expected vs Actual
 
-**Repro steps**
+## Repro steps
 
-**Screenshots / logs**
+## Screenshots / logs
