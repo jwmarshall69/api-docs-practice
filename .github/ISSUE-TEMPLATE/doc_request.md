@@ -4,12 +4,14 @@ about: Request new content or improvements
 labels: enhancement
 ---
 
-**Problem / Goal**
+# Problem / Goal
 
-**Proposed Content**
+## Proposed Content
+
 - Page type: Quick Start / Guide / Reference / How-to
 
-**Examples Needed**
+## Examples Needed
+
 - [ ] curl
 - [ ] Postman
 - [ ] VS Code REST Client
