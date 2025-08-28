@@ -32,7 +32,7 @@
 - [ ] Source → **Deploy from a branch**.
 - [ ] Branch: `main`, Folder: `/root`.
 - [ ] Save → wait for green check → test site at:  
-  `https://your-username.github.io/api-docs-practice/`.
+      `https://github.com/jwmarshall69/api-docs-practice`.
 
 ---
 
@@ -53,7 +53,7 @@
 - [ ] Source → **Deploy from a branch**.
 - [ ] Branch: `main`, Folder: `/root`.
 - [ ] Save → test site at:  
-  `https://your-username.github.io/api-writer-portfolio/`.
+      `https://github.com/jwmarshall69/api-writer-portfolio/`.
 
 ---
 
@@ -62,7 +62,7 @@
 - [ ] Open both sites in a browser.
 - [ ] Click links in nav + project cards → ensure they resolve.
 - [ ] Check **badges in README** update with CI status after first PR.
-- [ ] Verify spelling/links workflows run under **Actions** tab.
+- [ ] Verify spelling/links workflows run under the **Actions** tab.
 
 ---
 
@@ -78,3 +78,4 @@
 
 - A **Practice Repo** with working CI, Pages, and docs templates.  
 - A **Portfolio Site** showcasing all your writing projects in one clean GitHub Pages
+
