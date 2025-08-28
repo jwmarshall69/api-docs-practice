@@ -22,4 +22,9 @@ jobs:
 
       - name: Run collection
         run: |
-          newman run postman/collection.json             --env-var baseUrl=${{ secrets.POSTMAN_BASE_URL || 'https://api.example.com/v1' }}             --env-var token=${{ secrets.POSTMAN_TOKEN || '' }}             --env-var limit=5             --color on             --reporters cli
+          newman run postman/collection.json \
+            --env-var baseUrl=${POSTMAN_BASE_URL:-https://api.example.com/v1} \
+            --env-var token=${POSTMAN_TOKEN:-dummy-token} \
+            --env-var limit=5 \
+            --color on \
+            --reporters cli
