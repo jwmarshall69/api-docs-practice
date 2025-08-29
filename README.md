@@ -19,10 +19,10 @@ Full practice repo with guides, API reference, CI, and publishing checklist.
 
 ## ✅ Week 1 Tasks
 
-- [ ] Install GitHub Desktop and VS Code
-- [ ] Create this repository
-- [ ] Add a README.md (you’re reading it now!)
-- [ ] Commit changes and push to GitHub
+- [x] Install GitHub Desktop and VS Code
+- [x] Create this repository
+- [x] Add a README.md (you’re reading it now!)
+- [x] Commit changes and push to GitHub
 
 ## 🌐 GitHub Pages Setup (Week 6)
 
@@ -71,4 +71,6 @@ Other projects to include:
 - Postman collection walkthroughs
 - GitHub Pages publishing demos
 
-👉 Keep this section updated, then share link to showcase your work
+👉 Keep this section updated, then share the link to showcase your work
+
+
