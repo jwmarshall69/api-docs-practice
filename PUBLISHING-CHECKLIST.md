@@ -78,4 +78,3 @@
 
 - A **Practice Repo** with working CI, Pages, and docs templates.  
 - A **Portfolio Site** showcasing all your writing projects in one clean GitHub Pages
-
