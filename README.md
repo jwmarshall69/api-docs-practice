@@ -71,4 +71,5 @@ Other projects to include:
 - Postman collection walkthroughs
 - GitHub Pages publishing demos
 
-👉 Keep this section updated, then share link to showcase your work
+👉 Keep this section updated, then share the link to showcase your work
+
