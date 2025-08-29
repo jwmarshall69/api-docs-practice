@@ -1,4 +1,3 @@
-
 # API Reference
 
 Welcome! This page is your _human-friendly_ reference.
