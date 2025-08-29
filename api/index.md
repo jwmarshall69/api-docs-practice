@@ -1,9 +1,4 @@
----
-title: API Reference
-description: Task-first reference hub for the Items API with quick links, examples, and common conventions.
----
-
-## API Reference
+# API Reference
 
 Welcome! This page is your _human-friendly_ reference.
 
