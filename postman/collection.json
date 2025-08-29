@@ -1,1 +1,75 @@
-
+{
+  "info": {
+    "name": "Example Items API",
+    "_postman_id": "00000000-0000-0000-0000-000000000000",
+    "description": "Starter collection for GET /items. Update baseUrl/token as needed.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "List items",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/items?limit={{limit}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "items"
+          ],
+          "query": [
+            {
+              "key": "limit",
+              "value": "{{limit}}"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "exec": [
+          "// You can add auth header logic here later if needed"
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "exec": [
+          "pm.test('Status code is 200', function () {",
+          "  pm.response.to.have.status(200);",
+          "});",
+          "pm.test('Response has data array', function () {",
+          "  var json = pm.response.json();",
+          "  pm.expect(json).to.have.property('data');",
+          "  pm.expect(json.data).to.be.an('array');",
+          "});"
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://api.example.com/v1"
+    },
+    {
+      "key": "limit",
+      "value": "5"
+    }
+  ]
+}
