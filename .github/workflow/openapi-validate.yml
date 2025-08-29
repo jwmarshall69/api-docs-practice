@@ -17,3 +17,4 @@ jobs:
         uses: char0n/swagger-editor-validate@v1
         with:
           definition-file: openapi/openapi.yaml
+          
