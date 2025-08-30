@@ -1,6 +1,6 @@
 # API Reference
 
-Welcome! This page is your _human-friendly_ reference.
+Welcome! This page serves as your human-friendly reference.
 
 For a full, interactive schema view,
 
